@@ -1,0 +1,71 @@
+
+
+ PROJECT REPORT
+MetroGo: Metro Booking System
+
+Submitted by:
+Hari Prathyumnan K - 23011102030
+Aditya Chavali - 23011102021
+Dangeti Sai Sampath - 23011102023
+Aarav Suriyanarayanan - 23011102004
+Arnav Vadlapatla - 23011102014
+
+SHIV NADAR UNIVERSITY CHENNAI
+November 2024
+
+Problem Identification
+Aim: Develop a digital metro ticketing solution to address long queues, paper waste, and lack of contactless payments.
+
+Problem Statement:
+
+Overcrowded ticket counters cause delays.
+Paper-based tickets are unsustainable.
+No contactless payment options pose health risks.
+Proposed Solution:
+A Metro Booking System to enable online ticket booking, fare calculation, and route planning with features such as:
+
+Secure user accounts.
+Contactless payments.
+Route guidance with mapping services.
+Centralized database for bookings and user data.
+Result:
+The system reduces wait times, promotes environmental sustainability, and enhances safety through a seamless digital platform.
+
+Requirement Analysis
+Key Features:
+
+User Management: Secure registration and login.
+Ticket Booking: Select source, destination, date, and passengers; automatic fare calculation.
+Route Guidance: Maps for travel routes and real-time train schedules.
+Payments: Secure, contactless options with multiple methods.
+Database: Centralized and secure storage for user and booking data.
+User Interface: Simple and intuitive for all users.
+Scalability: Support for increasing users and metro expansions.
+Result: Comprehensive framework ensuring alignment with commuter needs.
+
+Design and Flow
+Database Design:
+
+Tables:
+user: User details.
+booking: Booking details.
+payment and payment_card: Payment details and methods.
+Workflow:
+
+Login Page: Verify user credentials.
+Booking Page: Input journey details; calculate fare; save booking.
+Payment Page: Choose payment method; update booking status after payment.
+Ticket View Page: Display past bookings with QR codes for paid tickets.
+Fare Calculation:
+
+Formula: (Station Difference * 10) * Number of Passengers.
+Future Enhancements:
+
+Add ticket cancellation with refund processing.
+Improved payment status tracking.
+Key Diagrams and Outputs
+ER Diagram: Shows relationships between entities like users, stations, and bookings.
+UML Diagrams: Include activity, class, use case, and sequence diagrams to outline system design.
+Project Outputs: User login, booking, payment, and ticket generation pages.
+Conclusion
+The Metro Booking System simplifies metro ticketing, enhancing user convenience, safety, and environmental sustainability. It integrates ticket booking, payment processing, and route guidance in a single platform, improving daily commuting experiences.
